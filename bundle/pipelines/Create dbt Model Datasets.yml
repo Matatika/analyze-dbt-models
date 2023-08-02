@@ -1,8 +1,0 @@
-version: pipelines/v0.1
-name: Create dbt Model Datasets
-timeout: 0
-script: "meltano install transformer dbt\nmeltano install utility matatika\nmeltano invoke dbt docs generate"
-data_components:
-- dbt
-- matatika
-
