@@ -1,5 +1,5 @@
 version: pipelines/v0.1
-name: Model lineage
+name: Model Lineage
 data_components:
 - dbt
 - utilities/dbt-artifacts--matatika
